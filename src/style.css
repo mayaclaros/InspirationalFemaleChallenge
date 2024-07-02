@@ -1,5 +1,7 @@
-background: linear-gradient(
-  252.6deg,
-  rgb(255, 100, 241) 13.2%,
-  rgb(67, 220, 255) 81.3%
-);
+body {
+  background: linear-gradient(
+    252.6deg,
+    rgb(255, 100, 241) 13.2%,
+    rgb(67, 220, 255) 81.3%
+  );
+}
