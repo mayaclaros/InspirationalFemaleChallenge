@@ -12,3 +12,15 @@ h1 {
   color: purple;
   font-family: "Poppins", sans-serif;
 }
+h2,
+h3,
+h4 {
+  background: white;
+  text-align: center;
+  color: blueviolet;
+  font-family: "Poppins", san-serif;
+  margin: 0px 40px 0px 40px;
+  padding: auto;
+  font-style: italic;
+  box-shadow: 10px 5px 5px pink;
+}
