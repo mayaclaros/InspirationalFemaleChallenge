@@ -53,6 +53,11 @@ img:hover {
   cursor: pointer;
 }
 
+.page-1,
+.page-2 {
+  margin: 20px;
+}
+
 .self-portrait {
   max-width: 600px;
 }
@@ -74,17 +79,29 @@ img:hover {
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
 }
-
 .container-4 {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  max-width: 800px;
-  margin: 20px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container-4 iframe {
+  margin: 20px;
+}
 
-  font-family: "Poppins", sans-serif;
+.article-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.article-button:hover {
+  background-color: #0056b3;
 }
 .container-5 {
   max-width: 800px;
@@ -116,8 +133,16 @@ h4 {
 }
 
 footer {
-  text-align: center;
+  background-color: #333;
   font-family: "Poppins", san-serif;
-  padding: auto 0;
-  margin: 40px 5px 5px 20px;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }
