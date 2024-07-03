@@ -41,25 +41,25 @@ nav li a:hover {
   font-family: "Poppins", sans-serif;
 }
 
-img {
-  float: left;
-  margin-right: 20px;
-  max-width: 400px;
-  height: 400px;
-}
-
 img:hover {
-  transform: scale(2.5);
+  transform: scale(1.5);
   cursor: pointer;
 }
 
 .page-1,
 .page-2 {
   margin: 20px;
+  float: left;
+  margin-right: 20px;
+  max-width: 400px;
+  height: 400px;
 }
 
 .self-portrait {
+  float: left;
   max-width: 600px;
+  height: 600px;
+  margin-right: 20px;
 }
 
 .container-2 {
@@ -88,26 +88,14 @@ img:hover {
   margin: 20px;
 }
 
-.article-button {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.article-button:hover {
-  background-color: #0056b3;
-}
 .container-5 {
+  display: flex;
+  text-align: center;
   max-width: 800px;
+  height: 100px;
   margin: 20px auto;
   background: white;
-  padding: 20px;
+  padding: 20 px 20px 20px 0px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
 }
@@ -127,7 +115,7 @@ h4 {
   color: white;
   font-family: "Poppins", san-serif;
   margin: 0px 8px 0px 200px;
-  padding: 4px 4px 8px 0px;
+  padding: 20px 20px 8px 0px;
   font-style: italic;
   box-shadow: 10px 5px 5px gray;
 }
@@ -137,8 +125,8 @@ footer {
   font-family: "Poppins", san-serif;
   color: white;
   text-align: center;
-  padding: 10px 0;
-  position: fixed;
+  padding: 4px 0;
+
   bottom: 0;
   width: 100%;
 }
