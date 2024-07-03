@@ -29,7 +29,7 @@ nav li a:hover {
   background-color: #111;
 }
 .container {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 20px auto;
   background: white;
   padding: 20px;
@@ -37,7 +37,28 @@ nav li a:hover {
 }
 
 .container-2 {
-  max-width: 600px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.container-3 {
+  max-width: 1200px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.container-4 {
+  max-width: 1200px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.container-5 {
+  max-width: 1200px;
   margin: 20px auto;
   background: white;
   padding: 20px;
