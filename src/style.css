@@ -130,6 +130,11 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.current-date {
+  text-align: center;
+  font-size: "Poppins", san-serif;
+}
 footer a {
   color: white;
   text-decoration: none;
