@@ -1,12 +1,3 @@
-function askInspire() {
-  let inspirationFemale = prompt("Who is a female that inspires you?");
-
-  askInspire(inspirationFemale);
-  alert("inspirationalFemale");
-}
-
-setTimeout(askInspire, 60000);
-
 function changeAffirmation() {
   let h2Element = document.querySelector("#Affirmations1");
   h2Element.textContent = "Cátaleya";
