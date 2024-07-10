@@ -46,6 +46,10 @@ img:hover {
   cursor: pointer;
 }
 
+a {
+  color: #fe4c89;
+  cursor: pointer;
+}
 .page-1,
 .page-2 {
   margin: 20px;
