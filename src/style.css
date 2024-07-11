@@ -32,6 +32,25 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+h2,
+h3,
+h4 {
+  max-width: 600px;
+  background: #fe4c89;
+  text-align: right;
+  color: white;
+  font-family: "Poppins", san-serif;
+  margin: 0px 8px 0px 200px;
+  padding: 20px 20px 8px 0px;
+  font-style: italic;
+  box-shadow: 5px 5px 5px gray;
+}
 .container {
   max-width: 800px;
   margin: 20px auto;
@@ -73,15 +92,17 @@ a {
   padding: 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
+  line-height: 36px;
 }
 .container-3 {
   max-width: 800px;
-  height: 400px;
+  height: 600px;
   margin: 20px auto;
   background: white;
   padding: 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
+  line-height: 42px;
 }
 .container-4 {
   display: flex;
@@ -89,52 +110,46 @@ a {
   flex-wrap: wrap;
 }
 .container-4 iframe {
-  margin: 20px;
+  margin: 60px;
+  padding: 0 auto;
 }
 
+.speeches {
+  display: block;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: black;
+}
 .container-5 {
   display: flex;
   text-align: center;
   max-width: 800px;
-  height: 100px;
+  height: 200px;
   margin: 20px auto;
   background: white;
-  padding: 20 px 20px 20px 0px;
+  padding: 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
+  line-height: 36px;
 }
 
-h1 {
-  font-size: 30px;
-  text-align: center;
-  color: black;
-  font-family: "Poppins", sans-serif;
+.container-5:last-child {
+  border: none;
 }
-h2,
-h3,
-h4 {
-  max-width: 600px;
-  background: #fe4c89;
-  text-align: right;
-  color: white;
-  font-family: "Poppins", san-serif;
-  margin: 0px 8px 0px 200px;
-  padding: 20px 20px 8px 0px;
-  font-style: italic;
-  box-shadow: 10px 5px 5px gray;
-}
+
 .current-date {
   text-align: center;
   font-size: "Poppins", san-serif;
 }
 
 footer {
+  position: bottom;
   background-color: #333;
   font-family: "Poppins", san-serif;
   color: white;
   text-align: center;
   padding: 4px 0;
-
   bottom: 0;
   width: 100%;
 }
