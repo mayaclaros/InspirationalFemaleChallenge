@@ -155,6 +155,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: #fe4c89;
+  cursor: pointer;
   text-decoration: none;
 }
